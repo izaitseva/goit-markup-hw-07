@@ -1066,7 +1066,7 @@ fill: #757575;
     overflow: hidden;
 }
 
-.portf-overlay {
+.overlay {
     position: absolute;
     background: rgba(33, 150, 243, 0.9);
 
@@ -1085,11 +1085,11 @@ fill: #757575;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.li-item:hover .portf-overlay {
+.li-item:hover .overlay {
     transform: translateY(0);
 }
 
-.portf-overlay p {
+.overlay p {
     display: flex;
     color: rgba(255, 255, 255, 1);
     font-weight: 400;
@@ -1100,7 +1100,7 @@ fill: #757575;
     letter-spacing: 0.03em;
 }
 
-.portf-description {
+.overlay-desc {
     display: block;
     color: rgba(255, 255, 255, 1);
     font-weight: 700;
