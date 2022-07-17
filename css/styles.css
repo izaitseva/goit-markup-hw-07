@@ -947,7 +947,7 @@ fill: #757575;
 }
 
 /* Portfolio page */
-.section-portfolio {
+.portfolio-section {
     padding-bottom: 64px;
     padding-top: 94px;
 }
@@ -967,7 +967,7 @@ fill: #757575;
     border: 2px;
 }
 
-.btn-list {
+.portfolio__btn-list {
     text-align: center;
     color: #212121;
     display: flex;
