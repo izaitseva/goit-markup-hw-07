@@ -1100,7 +1100,7 @@ fill: #757575;
     letter-spacing: 0.03em;
 }
 
-.overlay-desc {
+.overlay__desc {
     display: block;
     color: rgba(255, 255, 255, 1);
     font-weight: 700;
