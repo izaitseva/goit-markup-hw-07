@@ -1089,21 +1089,10 @@ fill: #757575;
     transform: translateY(0);
 }
 
-.overlay p {
+.overlay__desc {
     display: flex;
     color: rgba(255, 255, 255, 1);
     font-weight: 400;
-
-    font-size: 18px;
-    line-height: 1.56;
-
-    letter-spacing: 0.03em;
-}
-
-.overlay__desc {
-    display: block;
-    color: rgba(255, 255, 255, 1);
-    font-weight: 700;
 
     font-size: 18px;
     line-height: 1.56;
