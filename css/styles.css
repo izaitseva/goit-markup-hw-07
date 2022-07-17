@@ -70,9 +70,8 @@ h2 {
     color: #fff;
 }
 
-.section-mrg {
+.section {
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 /* Проверка */
@@ -614,13 +613,12 @@ fill: #757575;
     line-height: 0;
 }
 
-.section-title {
+.section__header {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-top: 0;
 }
 
 /* overflow photo */
@@ -660,12 +658,6 @@ fill: #757575;
 
 /* Команда */
 
-.flex-item {
-    display: flex;
-    justify-content: space-between;
-
-}
-
 .team-decor {
     display: block;
     border: 1px solid #EEEEEE;
@@ -675,7 +667,7 @@ fill: #757575;
     border-radius: 0px 0px 4px 4px;
 }
 
-.section-team {
+.team {
     background-color: #F5F4FA;
     padding-bottom: 94px;
     padding-top: 94px;
@@ -688,7 +680,12 @@ fill: #757575;
     margin-bottom: 16px;
 }
 
-.team-job h3 {
+.team__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__list h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -698,7 +695,7 @@ fill: #757575;
     margin-bottom: 0;
 }
 
-.team-job p {
+.team__list p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -707,7 +704,7 @@ fill: #757575;
     margin-top: 10px;
 }
 
-.team-job item {
+.team__list item {
     display: flex;
 }
 
