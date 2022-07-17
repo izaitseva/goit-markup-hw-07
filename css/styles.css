@@ -1014,18 +1014,18 @@ fill: #757575;
     border-right: 1px solid #EEEEEE;
 }
 
-.portfolio-list {
+.portfolio__list {
     display: flex;
     flex-wrap: wrap;
 }
 
-.portfolio-list li {
+.portfolio__list li {
     transition-property: box-shadow, cursor;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-list li:hover {
+.portfolio__list li:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
@@ -1040,7 +1040,7 @@ fill: #757575;
     margin-right: 0px;
 }
 
-.portfolio-list h3 {
+.portfolio__list h3 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
