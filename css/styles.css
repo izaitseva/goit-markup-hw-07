@@ -613,7 +613,7 @@ fill: #757575;
     line-height: 0;
 }
 
-.section__header {
+.section-header {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
@@ -675,7 +675,7 @@ fill: #757575;
     display: flex;
 }
 
-.team-names {
+.team__names {
     padding-top: 30px;
     margin-bottom: 16px;
 }
@@ -708,14 +708,14 @@ fill: #757575;
     display: flex;
 }
 
-.social-items {
+.social-media {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
     gap: 10px;
 }
 
-.social-media-link {
+.social-media__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -729,17 +729,17 @@ fill: #757575;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-svg {
+.social-media__icon {
     fill: #AFB1B8;
 }
 
-.social-media-link:hover,
-.social-media-link:focus {
+.social-media__link:hover,
+.social-media__link:focus {
     background-color: #2196F3;
 }
 
-.social-media-link:hover .social-svg,
-.social-media-link:focus .social-svg {
+.social-media__link:hover .social-media__icon,
+.social-media__link:focus .social-media__icon {
     fill: #ffffff;
 }
 
