@@ -11,12 +11,6 @@
     box-sizing: border-box;
 } */
 
-.list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 /* Visually hidden */
 
 .visually-hidden {
@@ -918,6 +912,10 @@
 
 .porfolio__item:nth-child(3n) {
     margin-right: 0px;
+}
+
+.porfolio__item:nth-child(7-9) {
+    margin-bottom: 0px;
 }
 
 .porfolio__item:hover .overlay {
