@@ -770,25 +770,6 @@ fill: #757575;
     padding-bottom: 0;
 }
 
-.footer-social {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(225, 255, 255, 0.1);
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-social:hover,
-.footer-social:focus {
-    background-color: #2196F3;
-}
-
 .footer-icon {
     fill: white;
 }
