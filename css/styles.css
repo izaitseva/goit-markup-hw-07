@@ -672,14 +672,6 @@
 
 /* Ссылки футер */
 
-.footer-container {
-    display: flex;
-}
-
-.foot-container {
-    margin-left: 70px;
-}
-
 .footer h3 {
     color: #FFFFFF;
     font-size: 14px;

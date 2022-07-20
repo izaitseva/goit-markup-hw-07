@@ -1,7 +1,19 @@
+// Base container
 .container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+// Main container
+
+// Footer container
+.footer-container {
+    display: flex;
+}
+
+.foot-container {
+    margin-left: 70px;
 }
