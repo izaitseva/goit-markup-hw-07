@@ -259,6 +259,24 @@ body {
   background-color: #2196F3;
 }
 
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196F3;
+  margin-right: 94px;
+}
+
+.logo-header {
+  color: #212121;
+}
+
+.logo-footer {
+  color: #fff;
+}
+
 .section-header {
   font-weight: 700;
   font-size: 36px;
@@ -480,4 +498,55 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.feature-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
+}
+
+.list-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.list-services > item {
+  display: block;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.list-services h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.list-services p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  margin-bottom: 0;
+  width: 270px;
+}
+.list-services p:not(:last-child) {
+  margin-right: 30px;
 }/*# sourceMappingURL=main.css.map */
