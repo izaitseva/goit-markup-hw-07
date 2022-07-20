@@ -398,15 +398,11 @@ body {
   outline: transparent;
   padding-left: 42px;
 }
-
-.form-input:hover,
-.form-input:focus {
+.form-input:hover, .form-input:focus {
   border: 1px solid rgb(33, 150, 243);
   cursor: pointer;
 }
-
-.form-input:focus + .form-icon,
-.form-input:hover + .form-icon {
+.form-input:focus + .form-icon, .form-input:hover + .form-icon {
   fill: #2196F3;
 }
 
@@ -422,9 +418,7 @@ body {
   padding-bottom: 16px;
   outline: none;
 }
-
-.textarea-design:hover,
-.textarea-design:focus {
+.textarea-design:hover, .textarea-design:focus {
   border: 1px solid rgb(33, 150, 243);
   cursor: pointer;
 }
@@ -441,7 +435,6 @@ body {
       -ms-flex-align: start;
           align-items: flex-start;
 }
-
 .form-label:not(:last-child) {
   margin-bottom: 12px;
 }
@@ -558,7 +551,6 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .custom-checkbox:hover {
   cursor: pointer;
   fill: #757575;
@@ -568,7 +560,6 @@ body {
   width: 16px;
   height: 15px;
 }
-
 .modal-conditions-input:checked + .custom-checkbox {
   background-color: #2196F3;
   fill: white;
@@ -583,11 +574,9 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-
 .terms-agreement a {
   color: rgb(33, 150, 243);
 }
-
 .terms-agreement:hover {
   cursor: pointer;
 }

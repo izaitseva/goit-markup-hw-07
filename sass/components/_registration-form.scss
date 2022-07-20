@@ -1,4 +1,3 @@
-
 .form-window {
     position: relative;
 
@@ -57,19 +56,19 @@
     outline: transparent;
 
     padding-left: 42px;
-}
 
-.form-input:hover,
-.form-input:focus {
+    &:hover,
+    &:focus {
 
-    border: 1px solid rgba(33, 150, 243, 1);
-    cursor: pointer;
-}
+        border: 1px solid rgba(33, 150, 243, 1);
+        cursor: pointer;
+    }
 
-.form-input:focus+.form-icon,
-.form-input:hover+.form-icon {
+    &:focus+.form-icon,
+    &:hover+.form-icon {
 
-    fill: #2196F3;
+        fill: #2196F3;
+    }
 }
 
 .textarea-design {
@@ -86,22 +85,22 @@
     padding-right: 12px;
     padding-bottom: 16px;
     outline: none;
-}
 
-.textarea-design:hover,
-.textarea-design:focus {
-    border: 1px solid rgba(33, 150, 243, 1);
-    cursor: pointer;
+    &:hover,
+    &:focus {
+        border: 1px solid rgba(33, 150, 243, 1);
+        cursor: pointer;
+    }
 }
 
 .form-label {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-}
 
-.form-label:not(:last-child) {
-    margin-bottom: 12px;
+    &:not(:last-child) {
+        margin-bottom: 12px;
+    }
 }
 
 .form-header {
@@ -180,23 +179,24 @@
     transition-property: background-color(250ms), fill (250ms), border(250ms);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        cursor: pointer;
+        fill: #757575;
+    }
 }
 
-.custom-checkbox:hover {
-    cursor: pointer;
-    fill: #757575;
-}
 
 .modal-conditions-input {
     width: 16px;
     height: 15px;
-}
 
-.modal-conditions-input:checked+.custom-checkbox {
-    background-color: #2196F3;
-    fill: white;
-    outline-color: #2196F3;
-    cursor: pointer;
+    &:checked+.custom-checkbox {
+        background-color: #2196F3;
+        fill: white;
+        outline-color: #2196F3;
+        cursor: pointer;
+    }
 }
 
 .terms-agreement {
@@ -206,12 +206,12 @@
     letter-spacing: 0.03em;
 
     color: #757575;
-}
 
-.terms-agreement a {
-    color: rgba(33, 150, 243, 1);
-}
-
-.terms-agreement:hover {
-    cursor: pointer;
+    & a {
+        color: rgba(33, 150, 243, 1);
+    }
+    
+    &:hover {
+        cursor: pointer;
+    }
 }
