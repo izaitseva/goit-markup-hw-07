@@ -17,6 +17,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -697,7 +703,6 @@ fill: #757575;
     gap: 30px;
 }
 
-
 .clients-svg {
     fill: #AFB1B8;
 
@@ -708,11 +713,6 @@ fill: #757575;
 
 .client-flex a:focus {
     border-color: #2196F3;
-}
-
-.clients-link:hover .clients-svg,
-.clients-link:focus .clients-svg {
-    fill: #2196F3;
 }
 
 /* Нижня частина */

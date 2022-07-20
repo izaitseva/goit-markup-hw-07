@@ -40,4 +40,9 @@
     &:focus {
         border-color: #2196F3;
     }
+
+    &:hover .clients-svg,
+    &:focus .clients-svg {
+    fill: #2196F3;
+}
 }
