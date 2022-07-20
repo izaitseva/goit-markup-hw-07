@@ -17,18 +17,6 @@
     margin: 0;
 }
 
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h2 {
-    margin-bottom: 50px;
-}
-
 /* Visually hidden */
 
 .visually-hidden {
@@ -42,7 +30,7 @@ h2 {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-  }
+}
 
 /* Стилизация лого */
 
@@ -346,11 +334,12 @@ h2 {
     cursor: pointer;
 }
 
-.form-input:focus + .form-icon,
-.form-input:hover + .form-icon {
+.form-input:focus+.form-icon,
+.form-input:hover+.form-icon {
 
     fill: #2196F3;
 }
+
 .textarea-design {
     width: 448px;
     height: 120px;
@@ -449,7 +438,7 @@ h2 {
 
     width: 16px;
     height: 15px;
-    
+
     outline: 1px solid #757575;
     outline-offset: -1px;
     border-radius: 2px;
@@ -462,8 +451,8 @@ h2 {
 }
 
 .custom-checkbox:hover {
-cursor: pointer;
-fill: #757575;
+    cursor: pointer;
+    fill: #757575;
 }
 
 .modal-conditions-input {
@@ -471,7 +460,7 @@ fill: #757575;
     height: 15px;
 }
 
-.modal-conditions-input:checked + .custom-checkbox {
+.modal-conditions-input:checked+.custom-checkbox {
     background-color: #2196F3;
     fill: white;
     outline-color: #2196F3;
@@ -503,6 +492,7 @@ fill: #757575;
     justify-content: center;
 
 }
+
 .submit-button {
     display: flex;
     align-items: center;
@@ -586,6 +576,8 @@ fill: #757575;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
+    margin-top: 0px;
 }
 
 /* overflow photo */
@@ -931,6 +923,7 @@ fill: #757575;
 .porfolio__item:hover .overlay {
     transform: translateY(0);
 }
+
 .portfolio__list h3 {
     font-weight: 700;
     font-size: 18px;
