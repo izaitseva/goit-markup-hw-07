@@ -549,4 +549,40 @@ body {
 }
 .list-services p:not(:last-child) {
   margin-right: 30px;
+}
+
+.clients-container {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.clients-container h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.client-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.clients-svg {
+  fill: #AFB1B8;
+  -webkit-transition-property: fill;
+  transition-property: fill;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client-flex a:focus {
+  border-color: #2196F3;
 }/*# sourceMappingURL=main.css.map */
