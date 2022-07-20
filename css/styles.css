@@ -677,43 +677,8 @@ fill: #757575;
     margin-top: 10px;
 }
 
-.team__list item {
+.team__list {
     display: flex;
-}
-
-.social-media {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    gap: 10px;
-}
-
-.social-media__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-media__icon {
-    fill: #AFB1B8;
-}
-
-.social-media__link:hover,
-.social-media__link:focus {
-    background-color: #2196F3;
-}
-
-.social-media__link:hover .social-media__icon,
-.social-media__link:focus .social-media__icon {
-    fill: #ffffff;
 }
 
 /* Clients */
@@ -738,17 +703,6 @@ fill: #757575;
     gap: 30px;
 }
 
-.clients-link {
-    display: flex;
-    width: 170px;
-    height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 5px;
-
-    transition-property: border-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .clients-svg {
     fill: #AFB1B8;
@@ -756,11 +710,6 @@ fill: #757575;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients-link:hover,
-.clients-link:focus {
-    border-color: #2196F3;
 }
 
 .client-flex a:focus {
