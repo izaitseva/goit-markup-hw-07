@@ -506,15 +506,6 @@
     line-height: 0;
 }
 
-.section-header {
-    font-weight: 700;
-    font-size: 36px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin-bottom: 50px;
-    margin-top: 0px;
-}
 
 /* overflow photo */
 
@@ -551,59 +542,12 @@
     margin-bottom: 0;
 }
 
-/* Команда */
-
-.team__item {
-    display: block;
-    border: 1px solid #EEEEEE;
-    text-align: center;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
-
-.team {
-    background-color: #F5F4FA;
-    padding-bottom: 94px;
-    padding-top: 94px;
-    display: block;
-    display: flex;
-}
-
-.team__desc {
-    padding-top: 30px;
-    margin-bottom: 16px;
-}
-
-.team__list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.team__list h3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.team__list p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    margin-bottom: 0;
-    margin-top: 10px;
-}
-
-.team__list {
-    display: flex;
-}
-
 /* Clients */
+
+.clients-container {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
 
 .clients-container h2 {
     font-weight: 700;
@@ -634,6 +578,14 @@
 }
 
 /* Нижня частина */
+
+.footer-container {
+    display: flex;
+}
+
+.foot-container {
+    margin-left: 70px;
+}
 
 .footer {
     background-color: #2F303A;
