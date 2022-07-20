@@ -1,0 +1,28 @@
+// close btn style
+
+.close-btn {
+
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: 8px;
+    right: 8px;
+    padding: 0;
+
+    width: 30px;
+    height: 30px;
+
+    background-color: #ffffff;
+
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+&:hover {
+    fill: #2196F3;
+    cursor: pointer;
+}
