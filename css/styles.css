@@ -811,14 +811,6 @@ fill: #757575;
     cursor: pointer;
 }
 
-.footer-input::placeholder {
-
-    font-weight: 400;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
-
 .footer-button {
     display: flex;
     align-items: center;
@@ -834,6 +826,14 @@ fill: #757575;
     background-color: #2196F3;
     color: #ffffff;
     cursor: pointer;
+}
+
+.footer-input::placeholder {
+
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .button-icon {
@@ -870,7 +870,7 @@ fill: #757575;
     margin-bottom: 50px;
 }
 
-.list button {
+.portfolio__btn {
     background-color: #F5F4FA;
     color: #212121;
     font-family: 'Roboto', sans-serif;
