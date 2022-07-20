@@ -1,9 +1,12 @@
+// Утиліти
 @import "./utils/vars";
+@import "./utils/visually-hidden";
 
 // База
 @import "./base/common";
 @import "./base/reset";
 // Компоненти
+
 @import "./components/buttons";
 @import "./components/container";
 @import "./components/sections";
