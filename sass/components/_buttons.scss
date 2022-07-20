@@ -42,7 +42,7 @@
     cursor: pointer;
 }
 
-// Modal button
+// Modal buttons
 
 .button-div {
     display: flex;
@@ -111,6 +111,20 @@
         cursor: pointer;
     }
 
+}
+
+.nav-decor {
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 24px;
+    padding-top: 0;
+}
+
+.nav-portf {
+    padding-top: 24px;
+}
+
+.header-border {
+    border: 2px;
 }
 
 // footer btn
