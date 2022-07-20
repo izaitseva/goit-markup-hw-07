@@ -17,10 +17,13 @@
 @import "./components/icons";
 @import "./components/overlay";
 @import "./components/modal_window";
+@import "./components/_registration-form";
 
+// Layouts
 @import "./layouts/header";
 @import "./layouts/hero";
 @import "./layouts/team";
 @import "./layouts/list-services";
 @import "./layouts/clients";
+@import "./layouts/portfolio";
 @import "./layouts/footer";
