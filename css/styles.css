@@ -783,15 +783,6 @@
     border: 2px;
 }
 
-.portfolio__btn-list {
-    text-align: center;
-    color: #212121;
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin-bottom: 50px;
-}
-
 /* Portfolio list */
 .portfolio__name {
     padding-left: 24px;
