@@ -1,4 +1,4 @@
-// Base container
+// Main container
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -7,8 +7,11 @@
     margin-right: auto;
 }
 
-// Main container
-
+// Clients container
+.clients-container {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
 // Footer container
 .footer-container {
     display: flex;

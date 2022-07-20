@@ -170,6 +170,11 @@ body {
   margin-right: auto;
 }
 
+.clients-container {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
 .footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
