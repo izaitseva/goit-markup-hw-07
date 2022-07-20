@@ -11,12 +11,6 @@
     box-sizing: border-box;
 } */
 
-body {
-    background-color: #ffffff;
-    color: #757575;
-    font-family: 'Roboto', sans-serif;
-}
-
 .list {
     list-style: none;
     padding: 0;
@@ -887,8 +881,8 @@ fill: #757575;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list button:hover,
-.list button:focus {
+.portfolio__btn:hover,
+.portfolio__btn:focus {
     background-color: #2196F3;
     color: #fff;
     font-family: 'Roboto', sans-serif;

@@ -121,8 +121,6 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-social:hover,
-.footer-social:focus {
+.footer-social:hover, .footer-social:focus {
   background-color: #2196F3;
 }/*# sourceMappingURL=main.css.map */
