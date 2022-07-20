@@ -114,3 +114,21 @@
 }
 
 // footer btn
+
+.footer-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 50px;
+
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    border: none;
+    background-color: #2196F3;
+    color: #ffffff;
+    cursor: pointer;
+}
